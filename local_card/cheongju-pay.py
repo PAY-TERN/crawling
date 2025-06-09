@@ -88,5 +88,5 @@ for category, code in category_code_map.items():
 driver.quit()
 
 df = pd.DataFrame(all_data)
-df.to_csv("/Users/hyunji/Desktop/work/25-1_공모전/PAY-TERN/Data/cheongju-pay.csv", index=False, encoding='utf-8-sig')
+df.to_csv("/Users/hyunji/Desktop/work/[개신프론티어]/PAY-TERN/Data/cheongju-pay.csv", index=False, encoding='utf-8-sig')
 print("전체 수집 완료! 총 수집 수:", len(df))
